@@ -10,7 +10,7 @@ import java.io.InputStream;
  *  На Unix-системах конец строки обозначается символом с кодом 10 ('\n'),
  *  на Windows — двумя последовательными символами с кодами 13 и 10 ('\r' '\n').
  */
-public class fromWindowsToUnix {
+public class FromWindowsToUnix {
 
     private static final byte UNIX_END = 10; //'\n'
     private static final byte WIN_END = 13; //'\r'
